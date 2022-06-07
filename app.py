@@ -42,7 +42,4 @@ def get_related_movies(movie):
         return jsonify(related_movies), 200
     else:
         return "Error: Movie not on list", 404
-
-
-if __name__ == '__main__':
-    app.run(debug= True)
+ 
